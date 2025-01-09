@@ -1,0 +1,92 @@
+.widget .seos-rp-widget .rp-posts  {
+    display: block;
+    border: 1px solid #e3e3e3;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: #fff;
+	padding: 20px;
+}
+
+.seos-rp-widget .rp-posts .rp-url {
+	display: block;
+    font-weight: 900;
+    font-size: 16px;
+	text-decoration: none;
+	line-height: 22px;
+	color: #333 !important;
+	text-transform: uppercase;
+}
+
+.seos-rp-widget .rp-posts .rp-left {
+    float: left;
+    width: 34%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    height: 100px;
+}
+
+.seos-rp-widget .rp-posts img {
+    display: block;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+	overflow: hidden;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2 ease-out;	
+}
+.seos-rp-widget .rp-posts img:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2 ease-out;	
+}
+
+.rp-date {
+	padding: 0 10px 0 0;
+	width: 100%;
+	text-align: right;
+}
+
+.rp-date-right{
+	font-size: 12px;
+	width: fit-content;
+	color: #333;
+}
+
+.rp-date .dashicons{
+	position: relative;
+	left: 3px;
+	top: 2px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.seos-rp-widget p {
+	margin: 0;
+	color: #333;
+}
+
+footer .seos-rp-widget .rp-posts .rp-url,
+footer .rp-date em,
+footer .rp-date,
+footer .seos-rp-widget p {
+	margin: 0;
+	color: #ddd !important;
+}
+
+footer .widget .seos-rp-widget .rp-posts {
+	background: #292d32;
+	border: 1px solid #444;
+}
